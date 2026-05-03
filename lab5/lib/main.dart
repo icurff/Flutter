@@ -53,7 +53,7 @@ class KeyboardWidget extends StatelessWidget {
   final AudioPlayer audioPlayer = AudioPlayer();
 
   void playSound(int number){
-    audioPlayer.play(AssetSource("assets/sounds/note$number.wav"));
+    audioPlayer.play(AssetSource("/sounds/note$number.wav"));
   }
   KeyboardWidget({super.key, required this.colorKey, required this.number, });
   @override
