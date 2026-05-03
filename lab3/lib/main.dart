@@ -35,8 +35,8 @@ class MyDice extends StatefulWidget {
 }
 
 class _DiceState extends State<MyDice> {
-  int dice1 = 0;
-  int dice2 = 0;
+  int dice1 = 1;
+  int dice2 = 1;
 
   void update() {
     setState(() {
